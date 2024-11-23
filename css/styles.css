@@ -1,0 +1,100 @@
+html {
+
+    background-image: ("/static/image/fon.jpg");
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    
+    background-attachment: fixed;
+    
+    -webkit-background-size: cover;
+    
+    -moz-background-size: cover;
+    
+    -o-background-size: cover;
+    
+    background-size: cover;
+    
+    }
+  
+  
+  .zagolovok {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  body {
+      
+    background: linear-gradient(to bottom, #aebcbf 0%,#6e7774 13%,#0a0e0a 47%,#0a0809 100%)
+      
+    }
+    h1 {
+      
+     font-family: Rubik,sans-serif;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 50px;
+      margin: 0;
+       color:  rgb(255, 255, 255);
+     
+    }
+    .parent {
+      width: 600px;
+      margin: auto;
+      color: rgb(var(--article-top-info-fg));
+      -moz-column-gap: 24px;
+      column-gap: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      font-family: Roboto,sans-serif;
+      font-size: 18px;
+      line-height: 24px;
+      row-gap: 8px;
+    }
+    .content {
+     --text-size: 18px;
+      --text-line-height: 30px;
+      --text-row-gap: 32px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 32px;
+      width: 100%;
+      word-break: break-word;
+      width: 600px;
+      margin: auto;
+    }
+    ._text {
+      font-family: Roboto,sans-serif;
+      font-size: var(--text-size);
+      line-height: var(--text-line-height);
+      margin: 0;
+        margin-top: 0px;
+        color:rgb(255, 255, 255);
+    }
+   
+    h2 {
+      
+      font-family: Rubik,sans-serif;
+       font-size: 40px;
+       font-weight: 500;
+       line-height: 50px;
+       margin: 0;
+        color:  rgb(255, 255, 255);
+      text-align: center;
+     }
+    nav {
+      font-family: Roboto,sans-serif;
+      font-size: var(--text-size);
+      line-height: var(--text-line-height);
+      margin: 0;
+        margin-top: 0px;
+    }
+    
+  
+  
