@@ -18,6 +18,35 @@ html {
     
     }
   
+    .module {
+      background-color:#6e7774;
+      border-radius: 15pt;
+      color: #ffffff;
+      flex-grow: 1;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin: 10pt;
+      padding: 10pt;
+  }
+
+  
+    .Kart {
+      display: flex;
+      align-items: center;
+      margin-left: 0px;
+      flex-wrap: wrap;
+      color: rgb(255, 255, 255);
+    
+  }
+  .kart.img {
+      border-radius: 15px;
+      margin-right: 20px;
+      width: 130px;
+  }
+  .kart span{
+      font-size: 18px;
+  }
   
   .zagolovok {
     text-align: center;
