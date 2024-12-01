@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #4CAF50; /* Зеленый цвет навигации */
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+main {
+    padding: 20px;
+}
+
+/* Стили для блоков */
+section {
+    margin: 20px auto; /* Центрирование блоков */
+}
+
+/* Первый блок: Вступление */
+.intro {
+    background-color: #FFCCCB; /* Светло-красный фон для первого блока */
+    border: 2px solid #F44336; /* Красная рамка для первого блока */
+    border-radius: 5px; /* Скругление углов */
+    padding: 20px;
+}
+
+/* Второй блок: История */
+.history {
+    background-color: #FFF9C4; /* Светло-желтый фон для второго блока */
+    border: 2px solid #F57F20; /* Оранжевая рамка для второго блока */
+    border-radius: 5px; /* Скругление углов */
+    padding: 20px;
+}
+
+/* Третий блок: Игры */
+.games {
+    background-color: #D1C4E9; /* Светло-фиолетовый фон для третьего блока */
+    border: 2px solid #673AB7; /* Фиолетовая рамка для третьего блока */
+    border-radius: 5px; /* Скругление углов */
+    padding: 20px;
+}
+
+/* Карточки игр */
+.game-card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    background-color: white; /* Белый фон для карточек игр */
+    border: 1px solid #000; /* Черная рамка для карточек игр */
+    border-radius: 5px; /* Скругление углов карточек */
+    padding: 10px;
+    margin: 10px;
+    width: calc(30% - 20px); /* Ширина карточек с учетом отступов */
+}
+
+.game-card img {
+   width: 100%; /* Изображения занимают всю ширину карточки */
+   height: auto; /* Высота будет автоматически подстраиваться для сохранения пропорций */
+}
+
+/* Четвертый блок: Создатели */
+.creators {
+   background-color: #FFCCBC; /* Светло-розовый фон для четвертого блока */
+   border: 2px solid #D84315; /* Красная рамка для четвертого блока */
+   border-radius: 5px; /* Скругление углов */
+   padding: 20px;
+}
+
+/* Карточки создателей */
+.creators-card-container {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.creators-card {
+   background-color: white; /* Белый фон для карточек создателей */
+   border: 1px solid #000; /* Черная рамка для карточек создателей */
+   border-radius: 5px; /* Скругление углов карточек */
+   padding: 10px;
+   margin: 10px;
+   width: calc(30% - 20px); /* Ширина карточек с учетом отступов */
+}
+
+.creators-card img {
+   width: 100%; /* Изображения занимают всю ширину карточки */
+   height: auto; /* Высота будет автоматически подстраиваться для сохранения пропорций */
+}
+
+/* Адаптивность карточек на мобильных устройствах */
+
+@media (max-width: 768px) {
+   .game-card,
+   .creators-card {
+       width: calc(45% - 20px); /* Две карточки в строке на планшетах */
+   }
+}
+
+@media (max-width: 480px) {
+   .game-card,
+   .creators-card {
+       width: calc(100% - 20px); /* Одна карточка в строке на мобильных устройствах */
+   }
+}
